@@ -1,0 +1,200 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+/*
+	BARVY
+	zelená      #0a9c4a
+	tmavá       #31363b
+	pozadí      #a4e9c2
+*/
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #31363b;
+  padding: 0;
+  margin: 0;
+  height: 6rem;
+}
+
+.navigation__logo {
+  display: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  height: 6rem;
+  display: block;
+  font-size: 3vw;
+}
+
+.navigation a:hover {
+  color: #31363b;
+  background-color: #0a9c4a;
+}
+
+.navigation__link {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 5rem;
+}
+
+/* konec společné hlavičky */
+
+h1 {
+  color: #0a9c4a;
+  font-size: 150%;
+}
+
+h2 {
+  color: #0a9c4a;
+  clear: both;
+}
+
+main {
+  padding: 3rem;
+}
+
+.img-hyposka {
+  height: 48vh;
+  float: left;
+  margin-top: 2rem;
+}
+
+.img-house {
+  width: 20vw;
+  float: right;
+  padding-left: 1rem;
+  padding-top: 0;
+}
+
+img {
+  width: 20vw;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0);
+}
+
+/* Slávka a Verca */
+.slavka,
+.verca {
+  overflow: auto;
+}
+
+.slavka__image,
+.verca__image {
+  width: 30vw;
+  float: left;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.slavka__family,
+.verca__deti {
+  width: 30vw;
+  float: right;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+/*Kontakt */
+.contact {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact__img {
+  height: 3rem;
+}
+
+/* Společný footer */
+
+.footer-end__logo {
+  height: 2rem;
+  filter: grayscale(0);
+  margin: 1rem;
+}
+
+.footer-end {
+  display: flex;
+  background-color: #31363b;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.footer-end__text {
+  font-size: 70%;
+  padding: 0;
+  margin: 1rem;
+}
+
+@media (min-width: 540px) {
+  body {
+    width: 90vw;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    line-height: 1.5;
+  }
+
+  html {
+    background-color: #a4e9c2;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .navigation__logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+  }
+
+  .navigation__logo:hover {
+    display: block;
+    background-image: url(../images/logo-hover.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+  }
+
+  .navigation a {
+    font-size: 1.6vw;
+    padding: 2rem 1rem;
+    height: 6rem;
+    display: block;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    width: 80vw;
+    max-width: 960px;
+    font-weight: 400;
+    font-size: 125%;
+  }
+}
