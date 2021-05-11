@@ -4,6 +4,7 @@ import Slavka from './slavka';
 import Verca from './verca';
 import Contact from './contact';
 import Home from './home';
+import NoMatch from './noMatch';
 
 class MainContent extends React.Component {
 
@@ -14,18 +15,19 @@ class MainContent extends React.Component {
     render() {
         return (
             <Switch>
-                <Route path="/slavka">
+                <Route exact path="/slavka">
                     <Slavka />
                 </Route>
-                <Route path="/verca">
+                <Route exact path="/verca">
                     <Verca />
                 </Route>
-                <Route path="/contact">
+                <Route exact path="/contact">
                     <Contact />
                 </Route>
-                <Route path="/">
+                <Route exact path="/">
                     <Home />
                 </Route>
+                <Route component={NoMatch} />
             </Switch>
         );
     }
