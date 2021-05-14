@@ -1,16 +1,11 @@
-import React from 'react';
 import git from './images/logo-git.svg';
 import Vizitka from './vCard';
 import Form from './form/form';
 
-class Contact extends React.Component {
+const Contact = () => {
 
-    constructor(props) {
-        super();
-    }
-
-    render() {
         const link = "https://github.com/SlavkaVavrinova/o-projektu.git";
+        
         return (
             <main>
                 <h1>Kontakty</h1>
@@ -28,7 +23,6 @@ class Contact extends React.Component {
                 </div>
             </main>
         );
-    }
 
 }
 

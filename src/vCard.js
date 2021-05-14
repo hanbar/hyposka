@@ -1,29 +1,22 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import email from './images/email.svg';
 import git from './images/logo-git.svg';
 
-class Vizitka extends React.Component {
+const Vizitka = (props) => {
 
-    constructor(props) {
-        super();
-    }
-
-    render() {
-        return (
-            <div>
-                <h2>{this.props.name}</h2>
-                <div className="contact">
-                    <img className="contact__img" src={email} alt="E-mail" />
-                    <a href={`mailto:${this.props.email}`}>{this.props.email}</a>
-                </div>
-                <div className="contact">
-                    <img className="contact__img" src={git} alt="Logo GitHub" />
-                    <p>{this.props.gitAccount}</p>
-                </div>
+    return (
+        <div>
+            <h2>{props.name}</h2>
+            <div className="contact">
+                <img className="contact__img" src={email} alt="E-mail" />
+                <a href={`mailto:${props.email}`}>{props.email}</a>
             </div>
-        );
-    }
+            <div className="contact">
+                <img className="contact__img" src={git} alt="Logo GitHub" />
+                <p>{props.gitAccount}</p>
+            </div>
+        </div>
+    );
 
 }
 

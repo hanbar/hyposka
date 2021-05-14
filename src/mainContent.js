@@ -1,4 +1,3 @@
-import React from 'react';
 import { Switch, Route } from "react-router-dom";
 import Slavka from './slavka';
 import Verca from './verca';
@@ -6,13 +5,8 @@ import Contact from './contact';
 import Home from './home';
 import NoMatch from './noMatch';
 
-class MainContent extends React.Component {
+const MainContent = () => {
 
-    constructor(props) {
-        super();
-    }
-
-    render() {
         return (
             <Switch>
                 <Route exact path="/slavka">
@@ -30,7 +24,6 @@ class MainContent extends React.Component {
                 <Route component={NoMatch} />
             </Switch>
         );
-    }
 
 }
 

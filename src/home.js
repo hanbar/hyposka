@@ -1,14 +1,8 @@
-import React from 'react';
 import hyposka from './images/hyposka.svg';
 import house from './images/house.svg';
 
-class MainContent extends React.Component {
+const MainContent = () => {
 
-    constructor(props) {
-        super();
-    }
-
-    render() {
         return (
             <main>
                 <picture>
@@ -55,7 +49,6 @@ class MainContent extends React.Component {
                 </div>
             </main>
         );
-    }
 
 }
 
