@@ -24,14 +24,16 @@ class ContactForm extends React.Component {
         this.setState({ canSubmit: true });
     }
 
-    submit(model) {
-        // příklad JSONu
-        alert(JSON.stringify(model));
-        
-        /*fetch('http://example.com/', {
-            method: 'post',
-            body: JSON.stringify(model),
-        });*/
+    submit(data) {
+        window.Email.send({
+            SecureToken: 'b5f9c523-5d4c-467d-a511-7a798e3531aa',
+            To : 'youremail@domain.com',
+            From : data.email,
+            Subject : `${data.name} vám posílá zprávu`,
+            Body : data.message,
+        }).then(message => {
+            alert(message);
+        });
     }
 
     render() {
