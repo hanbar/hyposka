@@ -9,16 +9,16 @@ const MainContent = () => {
 
         return (
             <Switch>
-                <Route exact path="/slavka">
+                <Route exact path={`${process.env.PUBLIC_URL}/slavka`}>
                     <Slavka />
                 </Route>
-                <Route exact path="/verca">
+                <Route exact path={`${process.env.PUBLIC_URL}/verca`}>
                     <Verca />
                 </Route>
-                <Route exact path="/contact">
+                <Route exact path={`${process.env.PUBLIC_URL}/contact`}>
                     <Contact />
                 </Route>
-                <Route exact path="/">
+                <Route exact path={`${process.env.PUBLIC_URL}/`}>
                     <Home />
                 </Route>
                 <Route component={NoMatch} />

@@ -5,7 +5,7 @@ const MainContent = () => {
     return (
         <main>
         	<h1>404</h1>
-            <Link to="/">Domů</Link>
+            <Link to={`${process.env.PUBLIC_URL}/`}>Domů</Link>
         </main>
     );
 

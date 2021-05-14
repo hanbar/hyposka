@@ -6,7 +6,7 @@ import Footer from './footer';
 const App = () => {
 
     return (
-        <Router basename={'/hyposka'}>
+        <Router>
             <Header className="App-header" />
             <Main/>
             <Footer/>
