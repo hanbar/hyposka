@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hyposka/static/css/main.585d5b2a.chunk.css",
+    "main.js": "/hyposka/static/js/main.cd340cac.chunk.js",
+    "main.js.map": "/hyposka/static/js/main.cd340cac.chunk.js.map",
+    "runtime-main.js": "/hyposka/static/js/runtime-main.b20ef1f2.js",
+    "runtime-main.js.map": "/hyposka/static/js/runtime-main.b20ef1f2.js.map",
+    "static/js/2.de36289b.chunk.js": "/hyposka/static/js/2.de36289b.chunk.js",
+    "static/js/2.de36289b.chunk.js.map": "/hyposka/static/js/2.de36289b.chunk.js.map",
+    "static/js/3.80f895db.chunk.js": "/hyposka/static/js/3.80f895db.chunk.js",
+    "static/js/3.80f895db.chunk.js.map": "/hyposka/static/js/3.80f895db.chunk.js.map",
+    "index.html": "/hyposka/index.html",
+    "static/css/main.585d5b2a.chunk.css.map": "/hyposka/static/css/main.585d5b2a.chunk.css.map",
+    "static/js/2.de36289b.chunk.js.LICENSE.txt": "/hyposka/static/js/2.de36289b.chunk.js.LICENSE.txt",
+    "static/media/Slávka Vavřinová.5c623858.jpg": "/hyposka/static/media/Slávka Vavřinová.5c623858.jpg",
+    "static/media/Slávka.e98c3708.jpg": "/hyposka/static/media/Slávka.e98c3708.jpg",
+    "static/media/Veronika Sípalová.452a9f56.jpg": "/hyposka/static/media/Veronika Sípalová.452a9f56.jpg",
+    "static/media/Veru.5b0608af.jpg": "/hyposka/static/media/Veru.5b0608af.jpg",
+    "static/media/email.33357c28.svg": "/hyposka/static/media/email.33357c28.svg",
+    "static/media/house.1fa20662.svg": "/hyposka/static/media/house.1fa20662.svg",
+    "static/media/hyposka.1095ed96.svg": "/hyposka/static/media/hyposka.1095ed96.svg",
+    "static/media/logo-git.c9ace22d.svg": "/hyposka/static/media/logo-git.c9ace22d.svg",
+    "static/media/style.css": "/hyposka/static/media/logo.35e50e0e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b20ef1f2.js",
+    "static/js/2.de36289b.chunk.js",
+    "static/css/main.585d5b2a.chunk.css",
+    "static/js/main.cd340cac.chunk.js"
+  ]
+}
