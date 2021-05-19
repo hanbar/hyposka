@@ -4,9 +4,9 @@ import Main from './mainContent';
 import Footer from './footer';
 
 const App = () => {
-
+	console.log(process.env.NODE_ENV)
     return (
-        <Router>
+        <Router basename={process.env.NODE_ENV === 'development' ? '/' : '/hyposka'}>
             <Header className="App-header" />
             <Main/>
             <Footer/>
