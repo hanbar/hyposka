@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hyposka/static/css/main.585d5b2a.chunk.css",
-    "main.js": "/hyposka/static/js/main.093fb1d7.chunk.js",
-    "main.js.map": "/hyposka/static/js/main.093fb1d7.chunk.js.map",
+    "main.js": "/hyposka/static/js/main.6ff62a32.chunk.js",
+    "main.js.map": "/hyposka/static/js/main.6ff62a32.chunk.js.map",
     "runtime-main.js": "/hyposka/static/js/runtime-main.b20ef1f2.js",
     "runtime-main.js.map": "/hyposka/static/js/runtime-main.b20ef1f2.js.map",
-    "static/js/2.134309fc.chunk.js": "/hyposka/static/js/2.134309fc.chunk.js",
-    "static/js/2.134309fc.chunk.js.map": "/hyposka/static/js/2.134309fc.chunk.js.map",
+    "static/js/2.de36289b.chunk.js": "/hyposka/static/js/2.de36289b.chunk.js",
+    "static/js/2.de36289b.chunk.js.map": "/hyposka/static/js/2.de36289b.chunk.js.map",
     "static/js/3.80f895db.chunk.js": "/hyposka/static/js/3.80f895db.chunk.js",
     "static/js/3.80f895db.chunk.js.map": "/hyposka/static/js/3.80f895db.chunk.js.map",
     "index.html": "/hyposka/index.html",
     "static/css/main.585d5b2a.chunk.css.map": "/hyposka/static/css/main.585d5b2a.chunk.css.map",
-    "static/js/2.134309fc.chunk.js.LICENSE.txt": "/hyposka/static/js/2.134309fc.chunk.js.LICENSE.txt",
+    "static/js/2.de36289b.chunk.js.LICENSE.txt": "/hyposka/static/js/2.de36289b.chunk.js.LICENSE.txt",
     "static/media/Slávka Vavřinová.5c623858.jpg": "/hyposka/static/media/Slávka Vavřinová.5c623858.jpg",
     "static/media/Slávka.e98c3708.jpg": "/hyposka/static/media/Slávka.e98c3708.jpg",
     "static/media/Veronika Sípalová.452a9f56.jpg": "/hyposka/static/media/Veronika Sípalová.452a9f56.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b20ef1f2.js",
-    "static/js/2.134309fc.chunk.js",
+    "static/js/2.de36289b.chunk.js",
     "static/css/main.585d5b2a.chunk.css",
-    "static/js/main.093fb1d7.chunk.js"
+    "static/js/main.6ff62a32.chunk.js"
   ]
 }
